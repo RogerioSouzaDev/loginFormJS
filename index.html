@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="https://github.com/RogerioSouzaDev" target="_blank" ><h1 class="Logo">RF</h1></a>
+            <ul>
+                <li><a href="" onclick="return sobre()">Sobre</a></li>
+                <li><a href="" onclick="return contato()">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="form">
+            <h3>E-mail do usuario</h3>
+            <input type="email" id="email" placeholder="Digite aqui seu email!" name="" id="">
+            <p id="validacaoEmail"></p>
+            <h3>Senha</h3>
+            <input type="password"  id="pass"  placeholder="Digite aqui sua Senha!" name="" id="">
+            <p id = 'validacaoPass'></p>
+            <button type="submit" onclick="return verifica()">Login</button>
+        </div>
+    </section>
+</body>
+</html>
